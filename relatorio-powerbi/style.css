@@ -32,6 +32,6 @@ html, body {
 
 #report {
   width: 100%;
-  height: calc(100% - 52px);
+  height: calc(100% );
   border: none;
 }
