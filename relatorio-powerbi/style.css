@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+#toolbar {
+  background-color: #0078d4;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#toolbar button {
+  background-color: white;
+  color: #0078d4;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#toolbar button:hover {
+  background-color: #f2f2f2;
+}
+
+#report {
+  width: 100%;
+  height: calc(100% - 52px);
+  border: none;
+}
